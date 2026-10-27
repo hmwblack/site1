@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+.env*
+
+# API keys, tokens, and service credentials must not be committed.
+**/*api-key*.json
+**/*api_key*.json
+**/*apikey*.json
+**/*token*.json
+**/*secret*.json
+**/*credentials*.json
+**/*service-account*.json
+**/*serviceaccount*.json
+**/secrets/**/*.json
